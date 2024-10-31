@@ -1,0 +1,178 @@
+[
+    {
+        "name": "pear/pear_exception",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pear/PEAR_Exception.git",
+            "reference": "8c18719fdae000b690e3912be401c76e406dd13b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/8c18719fdae000b690e3912be401c76e406dd13b",
+            "reference": "8c18719fdae000b690e3912be401c76e406dd13b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=4.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2015-02-10T20:07:52+00:00",
+        "type": "class",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "PEAR": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            "."
+        ],
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Helgi Thormar",
+                "email": "dufuz@php.net"
+            },
+            {
+                "name": "Greg Beaver",
+                "email": "cellog@php.net"
+            }
+        ],
+        "description": "The PEAR Exception base class.",
+        "homepage": "https://github.com/pear/PEAR_Exception",
+        "keywords": [
+            "exception"
+        ]
+    },
+    {
+        "name": "pear/console_commandline",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pear/Console_CommandLine.git",
+            "reference": "40fca1d3dabbbb23e13b333bd5c615ca19d7d73f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pear/Console_CommandLine/zipball/40fca1d3dabbbb23e13b333bd5c615ca19d7d73f",
+            "reference": "40fca1d3dabbbb23e13b333bd5c615ca19d7d73f",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-xml": "*",
+            "pear/pear_exception": "^1.0.0",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2017-06-28T19:30:27+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Console": "./"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            ""
+        ],
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Richard Quadling",
+                "email": "rquadling@gmail.com"
+            },
+            {
+                "name": "David Jean Louis",
+                "email": "izimobil@gmail.com"
+            }
+        ],
+        "description": "A full featured command line options and arguments parser.",
+        "homepage": "https://github.com/pear/Console_CommandLine",
+        "keywords": [
+            "console"
+        ]
+    },
+    {
+        "name": "pear/crypt_gpg",
+        "version": "v1.6.0",
+        "version_normalized": "1.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pear/Crypt_GPG.git",
+            "reference": "b8df533b076a6a219b03b0a2729eb9a617e95f3c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pear/Crypt_GPG/zipball/b8df533b076a6a219b03b0a2729eb9a617e95f3c",
+            "reference": "b8df533b076a6a219b03b0a2729eb9a617e95f3c",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "pear/console_commandline": "*",
+            "pear/pear_exception": "*",
+            "php": ">=5.4.8"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "suggest": {
+            "ext-posix": "May require the posix PHP extension"
+        },
+        "time": "2017-02-26T08:18:08+00:00",
+        "bin": [
+            "scripts/crypt-gpg-pinentry"
+        ],
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Crypt": "./"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            "./"
+        ],
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Michael Gauthier",
+                "email": "mike@silverorange.com"
+            },
+            {
+                "name": "Nathan Fredrickson",
+                "email": "nathan@silverorange.com"
+            }
+        ],
+        "description": "Provides an object oriented interface to the GNU Privacy Guard (GnuPG). It requires the GnuPG executable to be on the system.",
+        "homepage": "https://github.com/pear/Crypt_GPG",
+        "keywords": [
+            "PGP",
+            "encryption",
+            "gnupg",
+            "gpg"
+        ]
+    }
+]
